@@ -19,7 +19,7 @@ describe('Task#1: Element Selection Strategy', () => {
     // Tricentis link under Manufacturers (Using partial href)
     cy.get('a[href*="tricentis"]');
 
-    // --- صفحة التسجيل (Registration Form) ---
+    
 
     // Register Heading (Using Tag and Text)
     cy.get('h1').contains('Register');
